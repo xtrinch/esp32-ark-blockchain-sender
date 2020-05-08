@@ -6,4 +6,5 @@ Built with PlatformIO.
 
 ## Setup
 
-Copy `import_env.example.py` to `import_env.py` and define you wifi and wallet passphrase.
+1. Create / prepare ARK devnet wallet & passphrase
+2. Copy `import_env.example.py` to `import_env.py` and define you wifi and wallet passphrase.
