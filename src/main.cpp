@@ -59,7 +59,7 @@ Ark::Crypto::transactions::Transaction createTransaction(int sensorData, string 
           .nonce(currNonce + 1)
           .fee(fee)
           .amount(amount)
-          .recipientId("DPKAyxsa7s9K3kQ5av8wwn9JY9a5ezxh4g")
+          .recipientId(xstr(WALLET_ADDRESS))
           .vendorField(sensorString)
           .sign(passphrase)
           .build();
